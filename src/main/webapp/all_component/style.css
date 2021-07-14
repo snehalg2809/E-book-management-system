@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+.bg-custom {
+	background-color: #00acc1;
+}
+
+.navbar .nav-item:hover .nav-link {
+	color: grey;
+	text-decoration: underline;
+}
+
+.toggle {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	background: #e9f5ff;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.toggle:before {
+	content: "\f186";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+	color: #2fa1ff;
+}
+
+section.dark  .toggle:before {
+	content: "\f185";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+	color: #fff;
+}
+
+section.dark {
+	background: #24292d;
+}
+
+section {
+	transition: background 0.5s;
+}
+
+section.dark  .toggle {
+	background: #000;
+}
+
+section.dark .row {
+	background: #24292d;
+	color: #fff;
+}
+
+section.dark .navbar {
+	background: #24292d;
+}
+
+section.dark .container {
+	background: #24292d;
+	color: #fff;
+}
+
+section.dark .card {
+	background: #24292d;
+	color: #fff;
+	border-color: #fff;
+}
+
+section.dark hr {
+	background: #fff;
+}
+
+section.dark .btn {
+	background: #fff;
+	color:#111;
+}
+
